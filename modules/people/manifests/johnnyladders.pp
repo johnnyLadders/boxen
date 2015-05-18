@@ -1,3 +1,3 @@
-class::people johnnyladders {
-	notify { "This message is getting loggedon the agent node.": }
-}
+include brewcask
+
+package { 'vlc': provider => 'brewcask' }
