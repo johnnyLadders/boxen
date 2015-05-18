@@ -1,5 +1,8 @@
 class people::johnnyLadders {
 include brewcask
+include chrome
 
-package { 'vlc': provider => 'brewcask' } 
+#packages from brewcask
+package { 'vlc': provider => 'brewcask' }
+ 
 }
